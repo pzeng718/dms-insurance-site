@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.login-card {
+    position: relative;
+}
+
+/* CustomerDashboard */
+.customer-dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 40px;
+}
+.greeting {
+    color: #333;
+    font-size: 24px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+.policy {
+    margin: 10px 0 0 10px;
+}
+.policy:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+/* Policy */
+.policy-card{
+    font-size: 1.4rem;
+    width: 40vw;
+    margin: 20vh 25vw;
+    padding: 5vh 5vw;
+    border: 1px solid grey;
+    border-radius: 5px;
+    
+}
+
+/* CustomerPolicyDashboard */
+.customer-policy-container {
+    width: 40vw;
+    margin: 100px 30vw;
+}
+.customer-policy-card {
+    width: 90%;
+    height: 220px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.card-title {
+    position: relative;
+    border: 1px solid grey;
+    width: 20%;
+    padding: 5px 5px;
+    margin: 10px 0px;
+}
+.card-button-container {
+    position: relative;
+    left: 81%;
+    bottom: 40px;
+}
+.card-button {
+    margin-left: 10px;
+}
+.navbar {
+    position: absolute;
+    left: 91vw;
+    top: 30px;
+}
+.navbar a {
+    font-size: 1.3rem;
+    margin-right: 15px;
+    color: black;
+}
+.navbar a:hover {
+    color: gray;
+}
+
+/* AdminDashboard */
+.admin-policy-dashboard {
+    width: 30vw;
+    height: 1100px;
+    margin: 100px 35vw;
+    overflow-y: scroll;
+}
+.admin-policy-card {
+    width: 90%;
+    height: 240px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.admin-policy-card p {
+    line-height: .8rem;
+}

@@ -1,0 +1,31 @@
+{
+    "city_ranking": {
+        "priceAmplifier": 0.7,
+        "data": [
+            {"rank": 1, "cityName": "Orem"},
+            {"rank": 2, "cityName": "Sugar Land"},
+            {"rank": 3, "cityName": "Johns Creek"},
+            {"rank": 4, "cityName": "Clarksville"},
+            {"rank": 5, "cityName": "Jonesboro"},
+            {"rank": 6, "cityName": "Kenner"},
+            {"rank": 7, "cityName": "Bellflower"},
+            {"rank": 8, "cityName": "Chino"},
+            {"rank": 9, "cityName": "Kennewick"}
+        ]
+    },
+    "risk_ranking": {
+        "priceAmplifier": 1.3,
+        "data": [
+            {"rank": 1, "cityName": "Chesapeake", "risk": 51.622408},
+            {"rank": 2, "cityName": "Johns Creek", "risk": 51.020014},
+            {"rank": 3, "cityName": "Cary", "risk": 50.809426},
+            {"rank": 4, "cityName": "Hampton", "risk": 50.497289},
+            {"rank": 5, "cityName": "Suffolk", "risk": 50.413335},
+            {"rank": 6, "cityName": "Virginia Beach", "risk": 50.401414},
+            {"rank": 7, "cityName": "Hoover", "risk": 50.336346},
+            {"rank": 8, "cityName": "Lexington", "risk": 50.292444},
+            {"rank": 9, "cityName": "Mount Pleasant", "risk": 50.283926},
+            {"rank": 10, "cityName": "Wyoming", "risk": 50.257623}
+        ]
+    }
+}
